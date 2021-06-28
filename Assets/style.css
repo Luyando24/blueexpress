@@ -1,4 +1,8 @@
 .bg-blue {
+	background: #168CCF;
+	color: #fff;
+}
+.bg-white {
 	background: #lightgray;
 	color: #fff;
 }
@@ -22,3 +26,7 @@
 }
 
 }
+.col{
+	text-align: center;
+}
+
