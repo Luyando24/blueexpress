@@ -29,4 +29,8 @@
 .col{
 	text-align: center;
 }
-
+@media only screen and (max-width: 600px) {
+.row .track{
+  	display: none;
+  }
+}
