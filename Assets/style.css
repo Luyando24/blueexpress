@@ -34,3 +34,9 @@
   	display: none;
   }
 }
+
+@media only screen and (min-width: 600px) {
+.mobile-tracking{
+  	display: none;
+  }
+}
