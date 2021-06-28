@@ -6,6 +6,10 @@
 	background: #lightgray;
 	color: #fff;
 }
+.bg-grey {
+	background: darkgrey;
+	color: #fff;
+}
 .carousel-item {
 	width: 100%;
 	height: 300px;
