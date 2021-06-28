@@ -1,3 +1,6 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+}
 .bg-blue {
 	background: #168CCF;
 	color: #fff;
@@ -7,7 +10,7 @@
 	color: #fff;
 }
 .bg-grey {
-	background: darkgrey;
+	background: #9E9E9E;
 	color: #fff;
 }
 .carousel-item {
@@ -43,4 +46,20 @@
 .mobile-tracking{
   	display: none;
   }
+}
+.service-logo img{
+	width: 100px;
+}
+.card{
+	border-style: none;
+	border-radius: 20px;
+}
+.card-footer{
+	background: #168CCF;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+.card-footer a{
+	color: #fff;
+	text-decoration: none;
 }
