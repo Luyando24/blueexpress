@@ -74,6 +74,7 @@ body{
 	height: 40px;
 	justify-content: space-around;
 	margin: 0;
+	background: #fff;
 }
 ul{
 	list-style: none;
