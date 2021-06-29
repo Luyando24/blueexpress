@@ -1,5 +1,6 @@
 body{
 	font-family: 'Ubuntu', sans-serif;
+	background: #EEEEEE;
 }
 .navbar{
 	padding-right: 2px;
@@ -12,6 +13,9 @@ body{
 .bg-white {
 	background: #lightgray;
 	color: #fff;
+}
+.white-bg{
+	background: #fff;
 }
 .bg-grey {
 	background: #9E9E9E;
