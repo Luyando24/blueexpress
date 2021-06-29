@@ -1,6 +1,10 @@
 body{
 	font-family: 'Ubuntu', sans-serif;
 }
+.navbar{
+	padding-right: 2px;
+	padding-left: 2px;
+}
 .bg-blue {
 	background: #2d88ff;
 	color: #fff;
