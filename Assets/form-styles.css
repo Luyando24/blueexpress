@@ -1,0 +1,111 @@
+body{
+    margin: 0;
+    background-color: #168CCF;
+}
+.form-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: column;   
+}
+
+input{
+    outline: none;
+    border-radius: 5px;
+    border: 2px solid black;
+    height: 40px;
+    padding: 5px;
+    margin-bottom: 15px;
+    
+}
+input:focus{
+    border: 2px solid blue;
+    box-shadow: 4px  lightskyblue;
+}
+input[type=submit]{
+    /*margin-top: 10%;
+    margin-left: 10%;
+    width: 60px;*/
+    background-color: rgb(80, 71, 71);
+    color: white;
+    font-weight: bolder;
+    margin: 10px;
+    height: 40px;
+    border-radius: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    font-weight: bold;
+}
+a:hover{
+    text-decoration: none;
+    color: green;
+    font-size: large;
+    font-weight: bold;
+}
+#login-btn{
+    background-color: rgb(80, 71, 71);
+    color: white;
+    font-weight: bolder;
+    margin: 10px;
+    height: 40px;
+    border-radius: 20px;
+    width: 50%;   
+}
+#login-btn:hover{
+    background-color: green;
+    color: white;
+    font-weight: bolder;
+    margin: 10px;
+    height: 40px;
+    border-radius: 20px;
+    width: 50%;   
+}
+h1{
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 40px;
+    color: black;
+}
+/*parcel Delivery Form Styles*/
+/*Styles for small devices*/
+#order-form input{
+    width: 50%;
+    height: 35px;
+    margin: 5px;
+    
+}
+#order-form input:focus{
+    background-color: rgb(178, 214, 236);
+    color: white;
+    font-size: large;
+}
+#order-form label{
+    color: white;
+    font-weight: bold;
+    padding-left: 10px;
+}
+#Order-details header{
+    text-align: center;
+    color: black;
+    font-size: large;
+}
+/*Styles for big devices*/
+@media (min: 600px) {
+    #order-form input{
+        width: 100%;
+        height: 35px;
+        margin-left: 40px;
+    }
+    #order-form input[type=submit]{
+        width: 50%;
+        height: 35px;
+        margin: 5px;
+        
+    }
+}
+/*End of Parcel Delivery Form Styles*/
