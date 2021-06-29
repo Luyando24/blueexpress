@@ -50,6 +50,74 @@ body{
 .service-logo img{
 	width: 100px;
 }
+
+/*parcel Delivery Form Styles*/
+/*Styles for small devices*/
+input[type=submit]{
+    /*margin-top: 10%;
+    margin-left: 10%;
+    width: 60px;*/
+    background-color: rgb(80, 71, 71);
+    color: white;
+    font-weight: bolder;
+    margin: 10px;
+    height: 40px;
+    border-radius: 20px;
+}
+#Order-details{
+	margin-top: 5px;
+}
+#order-form input{
+    width: 50%;
+    height: 35px;
+    margin: 5px;
+    
+}
+#order-form input:focus{
+    background-color: rgb(178, 214, 236);
+    color: black;
+    font-size: large;
+}
+#order-form label{
+    color: black;
+
+    padding-left: 10px;
+}
+#Order-details header{
+    text-align: center;
+    color: black;
+	font-weight: bold;
+    font-size: large;
+}
+/*Styles for big devices*/
+@media (min: 500px) {
+	#Order-details{
+		margin-top: 5px;
+		height: 100px;
+		background-color: lightblue;
+		border: 4px solid black;
+	}
+    #order-form input{
+        width: 100%;
+        height: 35px;
+        margin-left: 40px;
+    }
+    #order-form input[type=submit]{
+        width: 50%;
+        height: 35px;
+        margin: 5px;
+    }
+	#order-form input[type=submit]{
+		background-color: rgb(80, 71, 71);
+		color: white;
+		font-weight: bolder;
+		margin: 30px;
+		height: 40px;
+		width: 20%;
+		border-radius: 20px;
+	}
+}
+/*End of ship details Form Styles*/
 .card{
 	border-style: none;
 	border-radius: 20px;
