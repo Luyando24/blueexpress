@@ -27,7 +27,7 @@
     
 }
 .form-container input:focus{
-    border: 2px solid green;
+    border: 2px solid blue;
     box-shadow: 4px  lightskyblue;
 }
 .form-container input[type=submit]{
@@ -50,7 +50,7 @@ a:hover{
     font-size: large;
     font-weight: bold;
 }
-#login-btn, #signup-btn{
+#login-btn{
     background-color: rgb(80, 71, 71);
     color: white;
     font-weight: bolder;
@@ -75,19 +75,22 @@ h1{
 }
     </style>
     <!--TITLE-->
-    <title>Login page</title>
+    <title>Sign up page</title>
   </head>
   <body>
       <main>
-          <div class="form-container">
-            <h1>Login </h1>
-            <form>
-                <input type="text" placeholder="email or phone"><br>
-                <input type="password" placeholder="Password"><br>
-                <p><input type="checkbox" >Remember Me <a href="#">Forgot Password</a></p><br>
-               <button id="login-btn">LOGIN</button>
-            </form>
-            <p>Don't have an Account? <a href="signup.html">Sign Up?</a></p>
+          <div class="container">
+             <div class="form-container">
+                <h1>Sign up </h1>
+                <form>
+                    <input type="text" placeholder="Username" name="username"><br>
+                    <input type="text" placeholder="email or phone" name="user-contact"><br>
+                    <input type="password" placeholder="password" name="password"><br>
+                    <input type="password" placeholder="Password again" name="password-confirm" ><br>
+                    <input type="submit" id="signup-btn">
+                </form>
+             </div>
+
           </div>
       </main>
   </body>
