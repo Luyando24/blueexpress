@@ -38,12 +38,7 @@ a{
     font-size: large;
     font-weight: bold;
 }
-a:hover{
-    text-decoration: none;
-    color: green;
-    font-size: large;
-    font-weight: bold;
-}
+
 #login-btn{
     background-color: rgb(80, 71, 71);
     color: white;
