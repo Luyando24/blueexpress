@@ -10,20 +10,15 @@
     <link rel="stylesheet" type="text/css" href="Assets/style.css">
     <link rel="stylesheet" type="text/css" href="Assets/form-styles.css">
     <script src="https://use.fontawesome.com/61ca905ad6.js"></script>
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
-
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
     <title>Blue Express, Fast & Safe Shipping!</title>
   </head>
   <body>
-
-
-</style>
   	<!--START TOP NAV-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-  <div class="container-fluid">
+    <nav class="topnav navbar navbar-expand-lg navbar-light white-bg fixed-top">
+
 
   	<!--Logo-->
     <a class="navbar-brand" href="#"><span style="background: #2d88ff; padding: 5px; color: #fff;">Blue</span> Express</a>
@@ -33,6 +28,7 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#">Home</a>
@@ -48,11 +44,11 @@
 	      <a href="login.html">login</a>
       </div>
     </div>
-  </div>
 </nav>
 <!--END NAV TOP-->
 
 <!--SLIDE SHOW-->
+<div class="carousel_section container-fluid">
 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -79,10 +75,11 @@
     <span class="visually-hidden">Next</span>
   </button>
 </div>
+</div>
 <!--END SLIDE SHOW-->
 
 <!--START BUTTONS AND TRACKING-->
-<div class="container-fluid mt-2 white-bg pt-4 pb-4">
+<div class="heading container-fluid mt-2 white-bg pt-4 pb-4">
 	<div class="row" style="display: flex; justify-content: space-evenly;">
 		<div class="col">
 		    <div class="btn bg-blue btn-lg">
@@ -106,7 +103,7 @@
 
 </div>
 
-<div class="container-fluid mt-2 pt-4 white-bg pb-4">
+<div class="tracking_form container-fluid mt-2 pt-4 white-bg pb-4">
   <h4>Track your parcel</h4>
   <form class=" d-flex track mt-2 ">
     
@@ -119,62 +116,59 @@
 
 
 <!--START RECOMMENDED SHOPPING SERVICES-->
-<div class="container-fluid">
-<div class="row mt-2 pt-4 pb-4 white-bg">
-  <h4>Recommended Shopping Services</h4>
-	<div class="col" style="background: ;">
-		<div class="card mt-1" style="background:#EEEEEE">
-			<div class="card-body">
-				<div class="service-logo">
-					<img src="Images/nalumall.png">
-				</div>
-			</div>
 
-		</div>
-	</div>
-
-	<div class="col" style="background: ;">
-		<div class="card mt-1" style="background:#EEEEEE">
-			<div class="card-body">
-				<div class="service-logo">
-					<img src="Images/shopeasy.png">
-				</div>
-			</div>
-
-		</div>
-	</div>
-</div>
 <!--END SHOPPING SERVICES-->
 
 
 <!--START SHIPPING DETAILS FORM-->
-<div id="ship-details">
-  <header>Parcel Shipment Details</header>
-  <form id="Ship-form">
-      <div class="form-group">
-          <label for="coming">Where is the Parcel Coming From: </label>  
-      <input type="text" name="coming" placeholder="Enter the Location where Parcel is coming from" required>
-      </div>
-      <div class="form-group">
-          <label for="going">Where is the Parcel Going: </label>
-      <input type="text" name="going" placeholder="Enter the Location where Parcel is to be delivered" required>
-      </div>
-      <div class="form-group">
-          <label for="weight">What is the weight of the Parcel: </label>
-      <input type="number" name="weight" placeholder="Weight in Kg">
-      </div>
-      <div class="form-group">
-          <label for="receiver-contact">Phone Number Of Receiver: </label>
-      <input type="number" name="receiver-contact" placeholder="+260 xxx xxx xxx">
-      </div>
-      <div class="form-group">
-          <label for="receiver-name">Name of the receiver: </label>
-      <input type="text" name="receiver-name" placeholder="Names of Receiver">
-      </div>
-      <div class="form-group">
-          <input type="submit">
-      </div> 
-  </form>
+<h4 class="heading container-fluid white-bg mt-2">Fill the form to ship</h4>
+
+<div class="shipping container-fluid white-bg mt-4 pb-4">
+<form class="row g-3">
+  <div class="col-md-6">
+    <label for="inputEmail4" class="form-label">From</label>
+    <input type="text" class="form-control" id="inputEmail4">
+  </div>
+  <div class="col-md-6">
+    <label for="inputPassword4" class="form-label">To</label>
+    <input type="text" class="form-control" id="inputPassword4">
+  </div>
+  <div class="col-6">
+    <label for="inputAddress" class="form-label">What are you shipping?</label>
+    <input type="text" class="form-control" id="inputAddress" placeholder="">
+  </div>
+  <div class="col-6">
+    <label for="inputAddress" class="form-label">Weight(KG)</label>
+    <input type="number" class="form-control" id="inputAddress" placeholder="">
+  </div>
+  <div class="col-6">
+    <label for="inputAddress" class="form-label">Phone</label>
+    <input type="number" class="form-control" id="inputAddress" placeholder="">
+  </div>
+  <div class="col-6">
+    <label for="inputAddress" class="form-label">Email</label>
+    <input type="text" class="form-control" id="inputAddress" placeholder="">
+  </div>
+  <div class="col-md-6">
+    <label for="inputCity" class="form-label">First Name</label>
+    <input type="text" class="form-control" id="inputCity">
+  </div>
+  <div class="col-md-6">
+    <label for="inputCity" class="form-label">Last Name</label>
+    <input type="text" class="form-control" id="inputCity">
+  </div>
+  <div class="col-12">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="gridCheck">
+      <label class="form-check-label" for="gridCheck">
+        Confirm
+      </label>
+    </div>
+  </div>
+  <div class="col-12">
+    <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+  </div>
+</form>
 </div>
 <!--END SHIPPING DETAILS FORM-->
 <br>

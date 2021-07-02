@@ -2,9 +2,12 @@ body{
 	font-family: 'Ubuntu', sans-serif;
 	background: #EEEEEE;
 }
-.navbar{
-	padding-right: 2px;
-	padding-left: 2px;
+}
+@media only screen and (min-width: 750px) {
+ .topnav{
+	padding-right: 75px;
+	padding-left: 75px;
+}
 }
 .bg-blue {
 	background: #2d88ff;
@@ -155,3 +158,28 @@ ul a{
 	color: grey;
 	font-size: 25px;
 }
+.heading{
+	padding: 5px;
+	text-align: center;
+}
+@media (min-width: 750px) {
+.shipping{
+	width: 75%;
+	}
+}
+@media (min-width: 750px) {
+.tracking_form{
+	width: 75%;
+	}
+}
+@media (min-width: 750px) {
+.heading{
+	width: 75%;
+	}
+}
+@media (min-width: 750px) {
+.carousel_section{
+	width: 76%;
+	}
+}
+

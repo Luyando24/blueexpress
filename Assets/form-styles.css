@@ -25,24 +25,12 @@ input[type=submit]{
     /*margin-top: 10%;
     margin-left: 10%;
     width: 60px;*/
-    background-color: rgb(80, 71, 71);
-    color: white;
-    font-weight: bolder;
-    margin: 10px;
-    height: 40px;
-    border-radius: 20px;
 }
 a{
     text-decoration: none;
-    color: black;
-    font-size: large;
-    font-weight: bold;
 }
 a:hover{
     text-decoration: none;
-    color: green;
-    font-size: large;
-    font-weight: bold;
 }
 #login-btn{
     background-color: rgb(80, 71, 71);
