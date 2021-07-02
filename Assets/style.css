@@ -1,7 +1,10 @@
 body{
 	font-family: 'Ubuntu', sans-serif;
 	background: #EEEEEE;
+	font-size: 16px;
 }
+html {
+  scroll-behavior: smooth;
 }
 @media only screen and (min-width: 750px) {
  .topnav{
@@ -153,12 +156,12 @@ ul{
 ul a{
 	text-decoration: none;
 	color: grey;
-	font-size: 25px;
 }
 .heading{
 	padding: 5px;
 	text-align: center;
 	border-radius: 5px;
+	font-weight: bold;
 }
 @media (min-width: 750px) {
 .shipping{
@@ -181,4 +184,28 @@ ul a{
 .carousel_section{
 	width: 76%;
 	}
+}
+@media (min-width: 750px) {
+.padding_container{
+	width: 77%;
+	}
+}
+h5{
+	color: #fff;
+}
+.radius{
+	border-radius: 5px;
+}
+.blue_icon{
+	color: #2d88ff;
+	font-size: 50px;
+	border: 1px solid #2d88ff;
+	border-radius: 360px;
+}
+.service_icons .fa{
+	font-size: 50px;
+}
+.flex{
+	display: flex;
+	flex-wrap: wrap;
 }
