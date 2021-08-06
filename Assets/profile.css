@@ -2,7 +2,7 @@ body{
     margin: 0;
     background-color: white;
     padding: 0;
-    overflowX: hidden;
+    overflow-x: hidden;
 }
 #top-div{
     height: 60px;
